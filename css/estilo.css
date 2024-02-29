@@ -1,0 +1,22 @@
+/* ----------- Estrutura do Site
+*/
+.container {
+	background: #290334;
+	display: center;
+}
+
+/* Link Cabeçalho 
+*/
+
+#logo {
+	color: white;
+}
+
+#logo:hover {
+	background: #000;
+
+}
+
+.navbar-nav .nav-link {
+	margin-left: 20px;
+}
