@@ -2,8 +2,28 @@
 */
 .container {
 	background: #290334;
-	display: center;
+	color: #fff;
 }
+
+.link-container {
+	display: flex;
+	justify-content: center;
+}
+
+.links {
+	text-decoration: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
 
 /* Link Cabeçalho 
 */
@@ -14,9 +34,8 @@
 
 #logo:hover {
 	background: #000;
-
 }
 
-.navbar-nav .nav-link {
-	margin-left: 20px;
-}
+
+
+
