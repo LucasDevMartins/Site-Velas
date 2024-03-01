@@ -1,18 +1,23 @@
 /* ----------- Estrutura do Site
 */
+
+body {
+	background: url(../img/todas.png) ;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 .container {
-	background: #290334;
 	color: #fff;
 }
 
-.link-container {
-	display: flex;
-	justify-content: center;
+.container1 {
+	background: #290334;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 0;
 }
 
-.links {
-	text-decoration: none;
-}
 
 h2 {
 	text-transform: uppercase;
@@ -20,9 +25,14 @@ h2 {
 }
 
 p {
+	padding: 0.2em;
+	margin: 2em;
 	text-align: center;
 }
 
+.fotos {
+	padding: 10px 0;
+}
 
 
 /* Link Cabeçalho 
@@ -36,6 +46,80 @@ p {
 	background: #000;
 }
 
+a.link-container {
+	color: white;
+}
+
+a.link-container:hover {
+	color: white;
+	background: black;
+}
+
+.link-container {
+	text-decoration-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.links {
+	text-decoration: none;
+}
+
+
+.navbar-light .navbar-toggler {
+	border-color: white;
+}
 
 
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	h2 {
+		font-size: 6em;
+	}
+	a {
+		font-size: 6em;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	h2 {
+		font-size: 5em;
+	}
+	a {
+		font-size: 5em;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	h2 {
+		font-size: 4em;
+	}
+	a {
+		font-size: 4em;
+		text-align: center;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	h2 {
+		font-size: 3em;
+	}
+	a {
+		font-size: 3em;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	h2 {
+		font-size: 2em;
+	}
+	a {
+		font-size: 2em;
+	}
+}
