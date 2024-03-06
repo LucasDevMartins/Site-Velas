@@ -38,12 +38,16 @@ p {
 /* Link Cabeçalho 
 */
 
+#logoprincipal:hover {
+	background: #290334;
+}
+
 #logo {
 	color: white;
 }
 
 #logo:hover {
-	background: #000;
+	background: #290334;
 }
 
 a.link-container {
@@ -68,6 +72,14 @@ a.link-container:hover {
 
 .navbar-light .navbar-toggler {
 	border-color: white;
+}
+
+/* Rodapé
+*/
+
+#rodape {
+	text-align: center;
+	
 }
 
 
